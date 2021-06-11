@@ -1,0 +1,214 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "First test",
+        "description": "",
+        "id": "anz-application-page;first-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21644674599,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on homepage",
+            "match": {
+              "location": "first.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34664599,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user verify title of the homepage",
+            "match": {
+              "location": "first.user_verify_title_of_the_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 266663800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user fills application type as single",
+            "match": {
+              "location": "first.user_fills_application_type_as_single()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3238799299,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user fills no of dependents as zero",
+            "match": {
+              "location": "first.user_fills_no_of_dependents_as_zero()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 145148800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user fills property you want to buy",
+            "match": {
+              "location": "first.user_fills_property_you_want_to_buy()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 251842000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user fills your income",
+            "match": {
+              "location": "first.user_fills_your_income()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 236677600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user fills your other income",
+            "match": {
+              "location": "first.user_fills_your_other_income()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 150660800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user fills living expenses",
+            "match": {
+              "location": "first.user_fills_living_expenses()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 167707600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user fills current home loan repayments",
+            "match": {
+              "location": "first.user_fills_current_home_loan_repayments()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 160479700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user fills other loan repayments",
+            "match": {
+              "location": "first.user_fills_other_loan_repayments()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 152028699,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user fills other commitments",
+            "match": {
+              "location": "first.user_fills_other_commitments()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 259350700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user fills credit card limits",
+            "match": {
+              "location": "first.user_fills_credit_card_limits()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 126319801,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks on work out how much i could borrow button",
+            "match": {
+              "location": "first.user_clicks_on_work_out_how_much_i_could_borrow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144079200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks on start over button",
+            "match": {
+              "location": "first.user_clicks_on_start_over_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2253899000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters living expenses and leaves everything blank",
+            "match": {
+              "location": "first.user_enters_living_expenses_and_leaves_everything_blank()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 600273001,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "display message on the screen",
+            "match": {
+              "location": "first.display_message_on_the_screen()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "ANZ Application page",
+    "description": "",
+    "id": "anz-application-page",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/home.feature"
+  }
+]
